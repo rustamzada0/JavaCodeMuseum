@@ -1,5 +1,6 @@
 import Abstract.AppleAbstract;
 import Abstract.Smartphone;
+import Interface.AppleInterface;
 
 //Evet, doğru. Java'da her .java dosyasında yalnızca bir tane public sınıf olabilir,
 // ve bu sınıfın adı dosya adıyla aynı olmalıdır
@@ -26,6 +27,9 @@ public class Main {
         Smartphone obj3 = new Smartphone("Iphone 14 pro", 2023, "Purple", "A17");
         // System.out.println(obj3.getModel() + " " + obj3.getCpuName());
         obj3.displayDetails();
+
+        AppleInterface obj4 = new AppleInterface("Iphone 9", 2000, "Red");
+        System.out.println(obj4);
     }
 }
 

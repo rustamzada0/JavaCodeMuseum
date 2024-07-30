@@ -1,5 +1,9 @@
 package Abstract;
 
+// public, protected, private variableler rahat islene biler (Source Youtube)
+// Abstarct class-da constructor olur
+// bir class max bir class-i (abstractclass-i) inherit ede biler ( multiple inherit desteklenmir )
+
 public abstract class AppleAbstract {
     // Class attribute
     public static final String companyName = "Apple";
@@ -19,6 +23,7 @@ public abstract class AppleAbstract {
     public AppleAbstract(){}
 
     // Abstract method to be implemented by subclasses
+    // body olmaz {}
     public abstract void displayDetails();
 
     // Getter methods
